@@ -54,7 +54,7 @@ function main(){
     document.getElementById("emptymsg").style.display="block";
     document.getElementById("display2").innerHTML="...";
   }
-  else if (document.getElementById("yr").value > 99999)
+  else if (document.getElementById("yr").value > 99999999)
   {
     document.getElementById("emptymsg").innerHTML="year: (1 - 99999)";
     document.getElementById("emptymsg").style.display="block";
